@@ -83,7 +83,7 @@ portfolio/
 If you downloaded this as a folder/zip, just open it. Otherwise:
 
 ```
-git clone YOUR_GITHUB_REPOSITORY
+git clone https://github.com/abinesh979153/ABINESH-PORTFOLIO.git
 cd portfolio
 ```
 
@@ -202,11 +202,11 @@ git init
 git add .
 git commit -m "Initial portfolio"
 git branch -M main
-git remote add origin YOUR_GITHUB_REPOSITORY
+git remote add origin https://github.com/abinesh979153/ABINESH-PORTFOLIO.git
 git push -u origin main
 ```
 
-Replace `YOUR_GITHUB_REPOSITORY` with your actual repository URL.
+Replace `https://github.com/abinesh979153/ABINESH-PORTFOLIO.git` with your actual repository URL.
 
 ## Screenshots
 
@@ -228,3 +228,5 @@ _Add screenshots of your deployed site here once it's live._
 | CORS error in browser console | Ensure `CLIENT_ORIGIN` in `server/.env` exactly matches the frontend URL, including protocol and port |
 | Admin login fails | Confirm you registered the admin account first via `/api/auth/register` (works only once) |
 | `Cannot find module` errors | Run `npm install` again inside the folder (`client` or `server`) where the error occurs |
+
+                           "THANK YOU"           
