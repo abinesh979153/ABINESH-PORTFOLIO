@@ -1,19 +1,11 @@
-// EDIT THIS FILE with your real experience only — no invented companies, dates or outcomes.
-// Leave the array entries as-is (edit the text) or delete an entry if it doesn't apply yet.
-// "type" controls the icon shown: internship | hackathon | paper | workshop | other
+// Real experience and professional activities
 export const experience = [
   {
-    type: "hackathon",
-    title: "Hackathon Participation",
-    organization: "Add event/organizer name",
-    period: "Add date",
-    description: "Add a short, honest summary of what you built and your role in the team.",
-  },
-  {
-    type: "paper",
-    title: "Paper Presentation",
-    organization: "Add conference/college name",
-    period: "Add date",
-    description: "Add a short summary of the topic you presented.",
+    type: "internship",
+    title: "Full Stack Development & UI/UX Internship",
+    organization: "Novitech R&D Private Limited",
+    period: "January 28, 2026 — February 28, 2026",
+    description:
+      "Completed a one-month internship focused on full stack development and UI/UX design, gaining practical experience in building web applications and designing user-friendly interfaces.",
   },
 ];

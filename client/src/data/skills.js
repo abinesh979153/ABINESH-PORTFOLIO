@@ -1,24 +1,29 @@
-// EDIT THIS FILE to change skill categories, items, and honesty labels.
+// Skills and honest proficiency levels.
 // Allowed levels: "Learning" | "Comfortable" | "Intermediate"
-// (Intentionally no fake percentages or "Expert"/"Advanced" claims.)
+
 export const skillCategories = [
   {
-    category: "Frontend",
+    category: "Frontend Development",
     items: [
       { name: "HTML", level: "Comfortable" },
       { name: "CSS", level: "Comfortable" },
       { name: "JavaScript", level: "Comfortable" },
-      { name: "React.js", level: "Comfortable" },
+      { name: "React.js", level: "Learning" },
       { name: "Bootstrap", level: "Comfortable" },
+      { name: "Responsive Web Design", level: "Comfortable" },
     ],
   },
+
   {
-    category: "Backend",
+    category: "Backend Development",
     items: [
       { name: "Node.js", level: "Comfortable" },
       { name: "Express.js", level: "Comfortable" },
+      { name: "REST API", level: "Learning" },
+      { name: "JWT Authentication", level: "Learning" },
     ],
   },
+
   {
     category: "Database",
     items: [
@@ -26,14 +31,17 @@ export const skillCategories = [
       { name: "MySQL", level: "Learning" },
     ],
   },
+
   {
-    category: "Programming",
+    category: "Programming Languages",
     items: [
       { name: "C", level: "Comfortable" },
       { name: "C++", level: "Comfortable" },
       { name: "Python", level: "Learning" },
+      { name: "JavaScript", level: "Comfortable" },
     ],
   },
+
   {
     category: "Cybersecurity",
     items: [
@@ -47,16 +55,19 @@ export const skillCategories = [
       { name: "Networking", level: "Comfortable" },
     ],
   },
+
   {
-    category: "Tools",
+    category: "Development Tools",
     items: [
       { name: "Git", level: "Comfortable" },
       { name: "GitHub", level: "Comfortable" },
       { name: "VS Code", level: "Comfortable" },
+      { name: "npm", level: "Comfortable" },
     ],
   },
+
   {
-    category: "Design & AI",
+    category: "Design & AI Tools",
     items: [
       { name: "Figma", level: "Learning" },
       { name: "Cursor AI", level: "Learning" },
